@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/icon.png">
+    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
+    <title>Lixo Industrial</title>
+</head>
+
+<body>
+    <header>
+        <!--order 1-->
+        <div class="logos">
+            <a href="/index.html"><img class="logoBgWhite" src="/img/logo.png" alt="">
+                <img class="logoBgBlack" src="/img/logo2.png" alt=""></a>
+        </div>
+
+        <!--order 2-->
+        <nav id="menu">
+            <ul id="imenu-list" class="menu-list">
+                <li><a href="/pag_ind/main.html">Sobre nós</a></li>
+                <li><a href="/curiosidades/curiosidades.html">Curiosidades</a></li>
+                <li><a href="#">Campanhas</a></li>
+            </ul>
+            <script>
+
+                var menuButton = document.getElementById("menu-btn");
+                var menu = document.getElementById("menu");
+
+                menu.style.transition("2s");
+
+                function showmenu() {
+                    if (menu.style.display === "none") {
+                        menu.style.display = "block";
+                    } else {
+                        menu.style.display = "none";
+                    }
+                };
+
+            </script>
+        </nav>
+
+        <!--order 3-->
+        <div class="dark_btn">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label" id="change">
+                <i id="sun" class="fa-solid fa-cloud-sun"></i>
+                <i id="moon" class="fa-solid fa-moon"></i>
+            </label>
+
+            <script>
+                const toggleBtn = document.getElementById('toggle');
+                const body = document.body;
+
+                toggleBtn.addEventListener('click', function () {
+                    body.classList.toggle('dark')
+                });
+            </script>
+        </div>
+
+        <!--order 4-->
+        <button onclick="showmenu()" id="menu-btn"><i class="fa-solid fa-water"></i></button>
+    </header>
+
+
+    <main id="top">
+
+        <h2>Lixo Industrial: O que caracteriza esse tipo de resíduo?</h2>
+        <p>O lixo industrial é caracterizado por resíduos gerados a partir de processos produtivos nas indústrias. Esses
+            resíduos podem variar significativamente em composição e natureza, dependendo do tipo de indústria e dos
+            processos utilizados.</p>
+
+
+        <div class="panel">
+            <p>Provém de atividades industriais, incluindo a fabricação, processamento, manutenção e limpeza nas
+                fábricas.</p>
+        </div>
+
+
+
+        <ul>
+            <li><strong>Resíduos Sólidos:</strong> Podem incluir materiais como metais, plásticos, papéis, tecidos,
+                madeira, vidro, e
+                cerâmicas.</li>
+            <li><strong>Resíduos Líquidos:</strong> Águas residuais e outros líquidos resultantes de processos de
+                fabricação, que podem
+                conter contaminantes químicos e biológicos.</li>
+            <li><strong>Resíduos Gasosos:</strong> Emissões de gases e partículas que podem ser liberadas no ar
+                durante os processos
+                industriais.</li>
+            <li><strong>Resíduos Perigosos:</strong> Incluem substâncias tóxicas, inflamáveis, corrosivas, reativas
+                ou radioativas, como
+                solventes, ácidos, óleos usados, e produtos químicos diversos.</li>
+        </ul>
+
+
+        <div class="fotos">
+            <img src="https://diamundialdalimpeza.com.br/wp-content/uploads/2023/07/Residuos-Industriais.webp" alt="">
+
+            <img src="https://i0.wp.com/www.infotecblog.com.br/wp-content/uploads/2022/03/Como-descartar-corretamente-o-lixo-industrial.jpg?fit=700%2C500&ssl=1"
+                alt="">
+
+            <img src="https://www.masonequipamentos.com.br/wp-content/uploads/2019/11/lixo-industrial.jpg" alt="">
+        </div>
+
+
+        <div class="video1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iH5gcqo65AU?si=IuI9vif-GhMWmxVL"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h2>Qual a importância de descartar o lixo Industrial de maneira correta?</h2>
+        <p>Descartar o lixo industrial corretamente é fundamental por diversas razões que abrangem aspectos ambientais,
+            sociais, econômicos e legais.</p>
+
+
+
+        <ul>
+            <li><strong>Reciclagem:</strong> Alguns resíduos industriais podem ser reciclados e reutilizados em
+                novos processos
+                produtivos.</li>
+            <li><strong>Tratamento:</strong> Resíduos perigosos frequentemente necessitam de tratamento
+                especializado para neutralizar ou
+                minimizar seus efeitos nocivos.</li>
+            <li><strong>Aterros Industriais:</strong> Resíduos não recicláveis e não perigosos podem ser destinados
+                a aterros sanitários
+                específicos para resíduos industriais.</li>
+            <li><strong>Incineradores:</strong> Em alguns casos, resíduos industriais são incinerados para reduzir
+                volume e destruir
+                contaminantes.</li>
+        </ul>
+
+
+    </main>
+
+
+    <footer>
+        <img src="/pag_ind/fotos/logo_black_and_white.png" alt="" height="120px">
+        <hr>
+        <div class="tudo">
+            <div class="voltar">
+                <h3>Volte para:</h3>
+
+                <a href="#top">Topo&uarr;</a>
+                <a href="/index.html">Home</a>
+            </div>
+
+            <div class="referencias">
+                <h3>Referências da Página:</h3>
+                <a
+                    href="https://www.terradecultivo.com.br/tcsolucoesambientais/lixo-industrial-conheca-o-destino-correto-para-diferentes-tipos-de-residuos/#:~:text=Os%20perigos%20do%20lixo%20industrial,at%C3%A9%20mesmo%20a%20sa%C3%BAde%20humana.">Terradecultivo</a>
+                <a href="https://www.todamateria.com.br/lixo-industrial/">Toda Matéria</a>
+                <!-- <a href="">Referência três</a>
+                <a href="">Referência Quatro</a> -->
+            </div>
+
+            <div class="links_rapidos">
+                <h3>Links Rápidos</h3>
+                <a href="">Siga nosso linktree</a>
+                <a href="/pag_ind/main.html">Sobre nós</a>
+                <a href="/curiosidades/curiosidades.html">Curiosidades</a>
+                <a href="#">Campanhas</a>
+            </div>
+        </div>
+
+        <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
+    </footer>
+</body>
+
+</html>
