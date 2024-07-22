@@ -4,6 +4,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+
 }
 
 ::selection {
@@ -64,6 +65,7 @@ header {
     .logoBgBlack {
         display: none;
     }
+
     /*-----------------/LOGOS-----------------*/
 
     nav {
@@ -281,6 +283,36 @@ main {
         width: 60%;
     }
 
+    .text1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        section{
+            display: flex;
+            justify-content: center;
+            width: 60%;
+            
+            ul{
+                width: 50%;
+                padding-left: 40px;        
+                li{
+                    margin-bottom: 1.2rem;
+                }
+            }
+
+            img{
+                margin-top: 40px;
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+
+    }
+
     p {
         padding: 30px;
         width: 60%;
@@ -318,18 +350,35 @@ main {
         }
     }
 
-    .fotos{
-        margin-top: 3rem;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        gap: 1rem;
+        width: 100%;
 
+        section{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            width: 60%;
+            
+            ul{
+                width: 50%;
+                padding-left: 40px;        
+                li{
+                    margin-bottom: 1.2rem;
+                }
+            }
 
-        img{
-            width: 300px;
+            img{
+                margin-top: 40px;
+                width: 300px;
+                height: 200px;
+            }
         }
+
+
     }
 
     .video1 {
@@ -387,67 +436,73 @@ main {
             width: 80%;
         }
     
-        .accordion {
+        
+        .text1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             width: 100%;
-            background-color: #3ab371;
-            color: white;
-            cursor: pointer;
-            padding: 2rem;
-            width: 70%;
-            text-align: left;
-            border: none;
-            outline: none;
-            transition: 0.4s;
-            font-size: 1.2rem;
     
-            border-bottom: solid white 2px;
-        }
+            section{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 80%;
+                
+                ul{
+                    width: 80%;
+                    padding-left: 40px;        
+                    li{
+                        margin-bottom: 1.2rem;
+                    }
+                }
     
-        .active,
-        .accordion:hover {
-            background-color: #cccccc;
-            color: #222222;
-        }
-    
-        .panel {
-            padding: 0 10px;
-            width: 60%;
-            /* background-color: white; */
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.2s ease-out;
-    
-            ul{
-                width: 100%;
-                padding: 10px;
-                margin: 0;
-    
-                li{
-                    margin: 1.2rem 0;
+                img{
+                    margin-top: 40px;
+                    width: 300px;
+                    height: 200px;
                 }
             }
-        }
     
-        .fotos{
-            margin-top: 3rem;
-            width: 100%;
-            display: grid;
-            grid-template-columns: 350px;
-            justify-content: center;
-            gap: 1rem;
+    
+        }
 
-            img:nth-child(2){
-                display: none;
-            }
-            img:nth-child(3){
-                display: none;
+        .text2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+    
+            section{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 80%;
+                
+                ul{
+                    width: 80%;
+                    padding-left: 40px;        
+                    li{
+                        margin-bottom: 1.2rem;
+                    }
+                }
+    
+                img{
+                    margin-top: 40px;
+                    width: 300px;
+                    height: 200px;
+                }
             }
     
     
-            img{
-                width: 350px;
-            }
         }
+        
+    
+        
+    
+        
     
         .video1 {
             background-color: #7a5524;
@@ -466,13 +521,7 @@ main {
                 width: 350px;
             }
         }
-    
-        .mapa{
-            margin-top: 3rem;
-            width: 350px;
-        }
-    
-    }
+
 }
 /*-----------------/MAIN-----------------*/
 
