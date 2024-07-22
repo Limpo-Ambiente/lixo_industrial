@@ -4,7 +4,6 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-
 }
 
 ::selection {
@@ -65,15 +64,6 @@ header {
     .logoBgBlack {
         display: none;
     }
-
-    .dark .logoBgWhite {
-        display: none;
-    }
-
-    .dark .logoBgBlack {
-        display: grid;
-    }
-
     /*-----------------/LOGOS-----------------*/
 
     nav {
@@ -140,6 +130,14 @@ header {
 .dark header {
     border-bottom: solid 3px var(--main-verde);
     background-color: #000000bc;
+
+    .logoBgWhite {
+        display: none;
+    }
+
+    .logoBgBlack {
+        display: grid;
+    }
 
     .menu-list a {
         color: aliceblue;
