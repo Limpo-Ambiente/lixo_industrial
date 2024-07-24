@@ -46,39 +46,39 @@ header {
     z-index: 10000;
 
     /*-----------------MENU-HAMBURGER-----------------*/
-        #menu-btn {
-            display: none;
-        }
+    #menu-btn {
+        display: none;
+    }
 
     /*-----------------/MENU-HAMBURGER-----------------*/
 
     /*-----------------LOGOS-----------------*/
-        img {
-            width: 120px;
-            transition: 0.5s ease;
+    img {
+        width: 120px;
+        transition: 0.5s ease;
 
-            &:hover {
-                transform: scale(90%);
-                cursor: pointer;
-            }
+        &:hover {
+            transform: scale(90%);
+            cursor: pointer;
         }
+    }
 
-        .logoBgBlack {
-            display: none;
-        }
+    .logoBgBlack {
+        display: none;
+    }
 
-        .dark .logoBgWhite {
-            display: none;
-        }
+    .dark .logoBgWhite {
+        display: none;
+    }
 
-        .dark .logoBgBlack {
-            display: grid;
-        }
+    .dark .logoBgBlack {
+        display: grid;
+    }
 
     /*-----------------/LOGOS-----------------*/
 
     nav {
-       
+
         margin-right: 3%;
         font-size: 23px;
         display: flex;
@@ -89,7 +89,7 @@ header {
     }
 
     .menu-list {
-     
+
         display: flex;
         gap: 70px;
 
@@ -303,9 +303,12 @@ main {
         justify-content: center;
         width: 100%;
 
+        margin-bottom: 3rem;
+
         section {
             display: flex;
             justify-content: center;
+            padding: 1rem 25px;
             width: 60%;
 
             ul {
@@ -317,10 +320,21 @@ main {
                 }
             }
 
-            img {
-                margin-top: 40px;
+            .imagem {
                 width: 300px;
-                height: 200px;
+                height: 290px;
+                background-image: url(https://i0.wp.com/www.infotecblog.com.br/wp-content/uploads/2022/03/Como-descartar-corretamente-o-lixo-industrial.jpg?fit=700%2C500&ssl=1);
+                background-size: cover;
+            }
+
+            ul {
+                width: 60%;
+                /* padding: 30px; */
+                margin: 0;
+
+                li {
+                    margin: 1.2rem 0;
+                }
             }
         }
 
@@ -328,40 +342,8 @@ main {
     }
 
     p {
-        padding: 30px;
+        padding: 0 30px;
         width: 60%;
-    }
-
-    .accordion {
-        width: 100%;
-        background-color: #3ab371;
-        color: white;
-        cursor: pointer;
-        padding: 2rem;
-        width: 70%;
-        text-align: left;
-        border: none;
-        outline: none;
-        transition: 0.4s;
-        font-size: 1.2rem;
-
-        border-bottom: solid white 2px;
-    }
-
-    .active,
-    .accordion:hover {
-        background-color: #cccccc;
-        color: #222222;
-    }
-
-    ul {
-        width: 60%;
-        padding: 30px;
-        margin: 0;
-
-        li {
-            margin: 1.2rem 0;
-        }
     }
 
     .text2 {
@@ -374,64 +356,40 @@ main {
         section {
             display: flex;
             flex-direction: row-reverse;
+            width: 62%;
             justify-content: center;
-            width: 60%;
+            align-items: flex-start;
 
-            ul {
-                width: 50%;
-                padding-left: 40px;
-
-                li {
-                    margin-bottom: 1.2rem;
-                }
+            p {
+                padding: 23px;
+                width: 60%;
             }
 
-            img {
-                margin-top: 40px;
+            .imagem {
                 width: 300px;
-                height: 200px;
+                height: 300px;
+                background-image: url(https://diamundialdalimpeza.com.br/wp-content/uploads/2023/07/Residuos-Industriais.webp);
+                background-size: cover;
             }
+
+
         }
 
+        .video1 {
+            background-color: #925d17;
+            width: 100%;
+            padding: 3rem;
 
-    }
+            margin: 3rem 0;
 
-    .video1 {
-        background-color: #7a5524;
-        width: 100%;
-        padding: 3rem;
+            display: grid;
+            justify-content: center;
+        }
 
-        margin: 3rem 0;
-
-        display: grid;
-        justify-content: center;
-
-        position: inherit;
-        z-index: 10;
-    }
-
-    .mapa {
-        margin-top: 3rem;
-    }
-
-}
-
-.dark main {
-
-    .active,
-    .accordion:hover {
-        background-color: #3b3b3b;
-        color: #ffffff;
-    }
-
-    .accordion {
-        /* width: 100%; */
-        background-color: #000000;
-        color: var(--main-verde);
-        border-bottom: solid 2px var(--main-verde);
     }
 }
 
+/*Main para dispositivos móveis*/
 @media all and (max-width: 880px) {
     main {
         display: flex;
@@ -448,8 +406,8 @@ main {
         }
 
         p {
-            padding: 30px;
-            width: 80%;
+            width: 90%;
+            padding: 1rem 2.9rem;
         }
 
 
@@ -460,6 +418,7 @@ main {
             justify-content: center;
             width: 100%;
 
+
             section {
                 display: flex;
                 flex-direction: column;
@@ -467,20 +426,23 @@ main {
                 align-items: center;
                 width: 80%;
 
+                .imagem {
+                    width: 95%;
+                }
+
                 ul {
-                    width: 80%;
+                    width: 90%;
                     padding-left: 40px;
 
                     li {
                         margin-bottom: 1.2rem;
                     }
+
+                    &:nth-child(4){
+                        margin-bottom: 0;
+                    }
                 }
 
-                img {
-                    margin-top: 40px;
-                    width: 300px;
-                    height: 200px;
-                }
             }
 
 
@@ -500,29 +462,19 @@ main {
                 align-items: center;
                 width: 80%;
 
-                ul {
-                    width: 80%;
-                    padding-left: 40px;
-
-                    li {
-                        margin-bottom: 1.2rem;
-                    }
+                .imagem {
+                    width: 95%;
                 }
 
-                img {
-                    margin-top: 40px;
-                    width: 300px;
-                    height: 200px;
+                p {
+                    margin-top: 1.5rem;
+                    width: 95%;
+                    padding: 0%;
                 }
             }
 
 
         }
-
-
-
-
-
 
         .video1 {
             background-color: #7a5524;
@@ -544,6 +496,7 @@ main {
 
     }
 }
+
 /*-----------------/MAIN-----------------*/
 
 
@@ -679,6 +632,5 @@ footer {
         }
     }
 }
-
 
 /*---------------/FOOTER---------------*/
