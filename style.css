@@ -321,7 +321,7 @@ main {
             }
 
             ul {
-                width: 60%
+                width: 60%;
                 margin: 0;
 
                 li {
@@ -366,7 +366,9 @@ main {
 
         }
 
-        .video1 {
+    }
+
+    .video1 {
             background-color: #925d17;
             width: 100%;
             padding: 3rem;
@@ -374,8 +376,6 @@ main {
             display: grid;
             justify-content: center;
         }
-
-    }
 }
 
 /*Main para dispositivos móveis*/
