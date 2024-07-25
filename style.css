@@ -37,9 +37,7 @@ header {
     box-shadow: -1px -8px 40px #0000006e;
     height: 100px;
     background-color: #ffffffc6;
-
     backdrop-filter: blur(10px);
-
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -109,8 +107,7 @@ header {
         }
     }
 
-
-    /*-----------------DARK-MODE-BTN-----------------*/
+ /*-----------------DARK-MODE-BTN-----------------*/
     .dark_btn {
         font-size: 30px;
         margin-left: 20px;
@@ -180,7 +177,7 @@ header {
     }
 }
 
-/*HEADER para disdpositivos móveis*/
+/*HEADER para dispositivos móveis*/
 @media all and (max-width: 880px) {
     header {
         width: 100%;
@@ -210,7 +207,6 @@ header {
         /*-----------------menu-hamburger-----------------*/
         #menu-btn {
             display: flex;
-            /* margin-bottom: 20px; */
             border: none;
             font-size: 25px;
             background-color: #f0f8ff00;
@@ -259,8 +255,7 @@ header {
             }
         }
     }
-
-    .dark header {
+      .dark header {
         #menu-btn {
             color: #fff;
         }
@@ -302,7 +297,6 @@ main {
         align-items: center;
         justify-content: center;
         width: 100%;
-
         margin-bottom: 3rem;
 
         section {
@@ -314,7 +308,6 @@ main {
             ul {
                 width: 50%;
                 padding-left: 40px;
-
                 li {
                     margin-bottom: 1.2rem;
                 }
@@ -328,8 +321,7 @@ main {
             }
 
             ul {
-                width: 60%;
-                /* padding: 30px; */
+                width: 60%
                 margin: 0;
 
                 li {
@@ -338,8 +330,7 @@ main {
             }
         }
 
-
-    }
+   }
 
     p {
         padding: 2rem 30px;
@@ -379,9 +370,7 @@ main {
             background-color: #925d17;
             width: 100%;
             padding: 3rem;
-
             margin: 3rem 0;
-
             display: grid;
             justify-content: center;
         }
@@ -418,8 +407,7 @@ main {
             justify-content: center;
             width: 100%;
 
-
-            section {
+       section {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -444,7 +432,6 @@ main {
                 }
 
             }
-
 
         }
 
@@ -480,16 +467,12 @@ main {
             background-color: #7a5524;
             width: 100%;
             padding: 3rem;
-
             margin: 3rem 0;
-
             display: grid;
             justify-content: center;
-
             position: inherit;
             z-index: 10;
-
-            iframe {
+           iframe {
                 width: 350px;
             }
         }
@@ -511,7 +494,6 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     margin-top: 3rem;
 
     & hr {
@@ -578,7 +560,6 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
         margin-top: 3em;
 
         & hr {
